@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">纷享花</string>
+    <string name="App_name">纷享花</string>
+    <!-- error-->
+    <string name="error_net">网络异常</string>
+
+    <string name="header_reset">正在加载</string>
+    <string name="header_pull">正在加载</string>
+    <string name="header_pull_over">释放立即刷新</string>
+    <string name="header_refreshing">加载中…</string>
+    <string name="header_completed">加载中…</string>
+    <string name="captcha_btn_resend">重发验证码</string>
+    <string name="validate_btn_hint">获取验证码</string>
+
+
+    <string name="error">出错了（┬＿┬）</string>
+    <string name="retry">轻触屏幕重试</string>
+    <string name="empty">暂无数据哦！ </string>
+    <string name="title_activity_desc">DescActivity</string>
+    <string name="hint_feedback">请输入你的问题, 工作人员会尽快联系并恢复您的问题（限150字以内）</string>
+</resources>

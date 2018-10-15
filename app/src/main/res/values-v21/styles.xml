@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyCheckBox" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+        <item name="android:colorControlActivated">@color/text_color_huang</item>
+        <item name="android:colorControlNormal">@color/text_color_huang</item>
+    </style>
+</resources>
