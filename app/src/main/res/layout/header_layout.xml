@@ -222,7 +222,7 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/icon_recommend"/>
         <TextView
-            android:text="今日推荐"
+            android:text="热门推荐"
             android:textColor="@color/color_33"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"

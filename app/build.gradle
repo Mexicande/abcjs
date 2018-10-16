@@ -66,6 +66,8 @@ dependencies {
     //butterknife
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+
     //AdapterHelper
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
     //glide
@@ -79,8 +81,6 @@ dependencies {
     //加载框
     implementation 'com.kaopiz:kprogresshud:1.1.0'
     implementation 'com.gongwen:marqueelibrary:1.1.3'
-
-
 
 
 }
