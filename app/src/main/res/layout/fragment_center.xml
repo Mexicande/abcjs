@@ -1,14 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/base_white"
+    android:orientation="vertical"
     tools:context=".ui.frgement.CenterFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <View
+        android:id="@+id/fake_status_bar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="@dimen/statusbar_view_height"
+        android:background="@color/colorPrimary"
+        />
+    <include layout="@layout/toolbar_layout"/>
+    <RelativeLayout
+        android:id="@+id/layout_edit"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/iv_header"
+            />
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"/>
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/icon_right_arrow"/>
 
-</FrameLayout>
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.allen.library.SuperTextView
+                android:id="@+id/super_schedule"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:sLeftIconRes="@mipmap/icon_schedule"
+                app:sLeftTextString="贷款进度"
+                app:sLeftTextColor="@color/color_33"
+                app:sRightIconRes="@mipmap/icon_right_arrow"
+                >
+            </com.allen.library.SuperTextView>
+            <com.allen.library.SuperTextView
+                android:id="@+id/super_free"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:sLeftIconRes="@mipmap/icon_free"
+                app:sLeftTextString="我的免息券"
+                app:sLeftTextColor="@color/color_33"
+                app:sRightIconRes="@mipmap/icon_right_arrow"
+                >
+            </com.allen.library.SuperTextView>
+            <com.allen.library.SuperTextView
+                android:id="@+id/super_safe"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:sLeftIconRes="@mipmap/icon_safe"
+                app:sLeftTextString="安全小贴士"
+                app:sLeftTextColor="@color/color_33"
+                app:sRightIconRes="@mipmap/icon_right_arrow"
+                >
+            </com.allen.library.SuperTextView>
+            <com.allen.library.SuperTextView
+                android:id="@+id/super_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:sLeftIconRes="@mipmap/icon_feeback"
+                app:sLeftTextString="意见反馈"
+                app:sLeftTextColor="@color/color_33"
+                app:sRightIconRes="@mipmap/icon_right_arrow"
+                >
+
+            </com.allen.library.SuperTextView>
+            <com.allen.library.SuperTextView
+                android:id="@+id/super_setting"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:sLeftIconRes="@mipmap/icon_setting"
+                app:sLeftTextString="设置"
+                app:sLeftTextColor="@color/color_33"
+                app:sRightIconRes="@mipmap/icon_right_arrow"
+                >
+            </com.allen.library.SuperTextView>
+        </LinearLayout>
+</LinearLayout>

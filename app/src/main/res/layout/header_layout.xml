@@ -45,7 +45,7 @@
             app:smvTextEllipsize="end"
             app:smvTextGravity="center_vertical"
             app:smvTextSingleLine="true"
-            app:smvTextSize="15sp">
+            app:smvTextSize="13sp">
         </com.gongwen.marqueen.SimpleMarqueeView>
     </LinearLayout>
    <LinearLayout

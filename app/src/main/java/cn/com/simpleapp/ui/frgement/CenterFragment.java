@@ -11,6 +11,7 @@ import cn.com.simpleapp.R;
 
 /**
  * A simple {@link Fragment} subclass.
+ * @author apple
  */
 public class CenterFragment extends Fragment {
 

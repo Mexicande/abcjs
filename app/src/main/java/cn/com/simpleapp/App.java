@@ -2,6 +2,9 @@ package cn.com.simpleapp;
 
 import android.app.Application;
 
+/**
+ * @author apple
+ */
 public class App extends Application {
     public static App context;
     @Override

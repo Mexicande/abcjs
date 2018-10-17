@@ -9,14 +9,7 @@ public interface Api {
      String HOST="http://api.anwenqianbao.com/v2/";
 
 
-    String HOST1="http://api.shoujiweidai.cn/v1/";
 
-    /**banner **/
-    String BANNER1=HOST1+"banner/getBanner";
-    /**产品 **/
-    String PRODUCT1_LSIT=HOST1+"product/getProduct";
-
-    String APPLY1=HOST1+"product/apply";
 
     /**banner **/
     String BANNER=HOST+"vest/banner";
@@ -36,6 +29,10 @@ public interface Api {
     String HELP=HOST+"borrow/url";
     /**筛选**/
     String SCREEN=HOST+"vest/screening";
+
+    String Notice=HOST+"vest/news";
+
+
     interface   LOGIN{
         /** 新or老用户**/
         String  isOldUser=HOST+"quick/isOldUser";
@@ -48,13 +45,6 @@ public interface Api {
         /** 完善信息**/
         String IDENTITY =HOST+"quick/addBasicIdentity";
 
-
-        /** 新or老用户**/
-        String isOldUser1=HOST1+"sms/getCode";
-        /** 验证码获取**/
-        String CODE1=HOST1+"sms/getcode";
-        /** 验证码效验**/
-        String CHECKCODE1=HOST1+"quick/login";
 
     }
 

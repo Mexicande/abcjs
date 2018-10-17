@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3D98F1</color>
+    <color name="colorPrimary">#ED7221</color>
     <color name="colorPrimaryDark">#348CE9</color>
     <color name="colorAccent">#FF4081</color>
     <color name="base_white">#f9f9f9</color>
@@ -26,8 +26,8 @@
     <color name="text_color_79">#797979</color>
     <color name="text_color_32">#323232</color>
 
-    <color name="dispress_color">#97c0ed</color>
-    <color name="press_color">#0867d1</color>
+    <color name="dispress_color">#f2d8a9</color>
+    <color name="press_color">#e59b14</color>
 
 
     <color name="green_color">#00bb9c</color>

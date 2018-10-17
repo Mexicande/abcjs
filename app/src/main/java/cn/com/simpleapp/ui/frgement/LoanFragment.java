@@ -39,6 +39,7 @@ import cn.com.simpleapp.ui.adapter.LoanAdapter;
 import cn.com.simpleapp.utils.BrowsingHistory;
 import cn.com.simpleapp.utils.RecyclerViewDecoration;
 import cn.com.simpleapp.utils.SPUtil;
+import cn.com.simpleapp.utils.ToastUtils;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -111,7 +112,7 @@ public class LoanFragment extends Fragment {
 
             @Override
             public void requestFailure(int code, String msg) {
-
+                ToastUtils.showToast(msg);
             }
 
             @Override
