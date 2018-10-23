@@ -15,10 +15,10 @@ android {
         release {
             v1SigningEnabled true
             v2SigningEnabled true
-            storeFile file("/Users/apple/Documents/jks/CashLoan")
-            storePassword "xinhe2016"
-            keyAlias "现金贷"
-            keyPassword "xinhe2016"
+            storeFile file("/Users/apple/Documents/jks/安卓.jks")
+            storePassword "000000"
+            keyAlias "安卓"
+            keyPassword "000000"
         }
 
     }
@@ -75,9 +75,9 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     //gson
     implementation 'com.google.code.gson:gson:2.8.5'
-    //友盟
-    implementation 'com.umeng.sdk:common:1.5.3'
-    implementation 'com.umeng.sdk:analytics:7.5.3'
+    //umeng
+    implementation 'com.umeng.analytics:analytics:latest.integration'
+
     //加载框
     implementation 'com.kaopiz:kprogresshud:1.1.0'
     implementation 'com.gongwen:marqueelibrary:1.1.3'

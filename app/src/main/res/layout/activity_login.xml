@@ -32,7 +32,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <cn.com.simpleapp.view.editext.PowerfulEditText
+        <cn.com.simplecolourful.view.editext.PowerfulEditText
             android:id="@+id/ed_phone"
             android:layout_marginTop="30dp"
             android:paddingLeft="25dp"
@@ -107,7 +107,7 @@
             android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="65dp">
-            <cn.com.simpleapp.view.editext.PowerfulEditText
+            <cn.com.simplecolourful.view.editext.PowerfulEditText
                 android:id="@+id/ed_code"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="15dp"
