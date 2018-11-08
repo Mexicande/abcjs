@@ -4,11 +4,11 @@ apply plugin: 'walle'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "cn.com.simpleapp"
+        applicationId "com.example.expense.DoubleFlower"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "2.5.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     signingConfigs {
@@ -24,8 +24,13 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            //混淆
+            minifyEnabled true
+            //Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
             shrinkResources false
+            //加载默认混淆配置文件
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -76,8 +81,8 @@ dependencies {
     //gson
     implementation 'com.google.code.gson:gson:2.8.5'
     //umeng
-    implementation 'com.umeng.analytics:analytics:latest.integration'
-
+    implementation 'com.umeng.sdk:common:latest.integration'
+    implementation 'com.umeng.sdk:analytics:latest.integration'
     //加载框
     implementation 'com.kaopiz:kprogresshud:1.1.0'
     implementation 'com.gongwen:marqueelibrary:1.1.3'
