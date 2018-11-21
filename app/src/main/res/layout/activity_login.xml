@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".ui.activity.LoginActivity">
     <RelativeLayout
-        android:background="@mipmap/iv_center_bg"
+        android:layout_marginTop="90dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <View
@@ -29,10 +29,11 @@
             android:src="@mipmap/logo"/>
     </RelativeLayout>
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <com.example.expense.DoubleFlower.view.editext.PowerfulEditText
+        <com.example.expense.abcmoneyloan.view.editext.PowerfulEditText
             android:id="@+id/ed_phone"
             android:layout_marginTop="30dp"
             android:paddingLeft="25dp"
@@ -107,7 +108,7 @@
             android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="65dp">
-            <com.example.expense.DoubleFlower.view.editext.PowerfulEditText
+            <com.example.expense.abcmoneyloan.view.editext.PowerfulEditText
                 android:id="@+id/ed_code"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="15dp"
@@ -158,26 +159,10 @@
             android:enabled="false"
             app:sSelectorNormalColor="@color/colorPrimary"
             app:sSelectorPressedColor="@color/press_color"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             />
     </LinearLayout>
-    <RelativeLayout
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:layout_marginBottom="20dp"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="@dimen/_30dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="@color/gay"
-            android:text="借花花©版权所有"/>
 
-    </RelativeLayout>
 </LinearLayout>
