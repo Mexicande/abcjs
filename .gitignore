@@ -8,4 +8,4 @@
 /build
 /captures
 .externalNativeBuild
-/pager-bottom-tab-strip
+pager-bottom-tab-strip/
