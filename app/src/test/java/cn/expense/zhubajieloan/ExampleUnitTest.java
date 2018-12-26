@@ -1,4 +1,4 @@
-package com.example.expense.abcmoneyloan;
+package com.book.moneywhitebar;
 
 import org.junit.Test;
 

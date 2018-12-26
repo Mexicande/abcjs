@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.expense.abcmoneyloan">
+    package="com.book.moneywhitebar">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
@@ -23,15 +23,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.expense.abcmoneyloan.ui.activity.LoginActivity" />
-        <activity android:name="com.example.expense.abcmoneyloan.ui.activity.ProductActivity" />
+        <activity android:name="com.book.moneywhitebar.ui.activity.LoginActivity" />
+        <activity android:name="com.book.moneywhitebar.ui.activity.ProductActivity" />
         <activity android:name=".base.GuideActivity" />
-        <activity android:name="com.example.expense.abcmoneyloan.ui.activity.MainActivity" />
-        <activity android:name="com.example.expense.abcmoneyloan.ui.activity.EmptyActivity" />
-        <activity android:name="com.example.expense.abcmoneyloan.ui.activity.HtmlActivity" />
-        <activity android:name="com.example.expense.abcmoneyloan.ui.activity.SettingActivity" />
-        <activity android:name="com.example.expense.abcmoneyloan.ui.activity.AboutActivity" />
-        <activity android:name="com.example.expense.abcmoneyloan.ui.activity.FeedbackActivity"/>
+        <activity android:name="com.book.moneywhitebar.ui.activity.MainActivity" />
+        <activity android:name="com.book.moneywhitebar.ui.activity.EmptyActivity" />
+        <activity android:name="com.book.moneywhitebar.ui.activity.HtmlActivity" />
+        <activity android:name="com.book.moneywhitebar.ui.activity.SettingActivity" />
+        <activity android:name="com.book.moneywhitebar.ui.activity.AboutActivity" />
+        <activity android:name="com.book.moneywhitebar.ui.activity.FeedbackActivity"/>
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="${applicationId}.provider"

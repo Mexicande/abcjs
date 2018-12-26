@@ -4,11 +4,11 @@ apply plugin: 'walle'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.expense.abcmoneyloan"
+        applicationId "com.book.moneywhitebar"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
-        versionName "2.1.3"
+        versionName "1.1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     signingConfigs {

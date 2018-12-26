@@ -1,4 +1,4 @@
-package com.example.expense.abcmoneyloan;
+package com.book.moneywhitebar;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
